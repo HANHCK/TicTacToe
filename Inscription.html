@@ -7,7 +7,51 @@
 </head>
 <body>
     <fieldset>
+        <p style="text-align: center;"><b>Inscription</b></p>
+<form action="traitement.php" method="post">
+    <label for="nom">Nom : </label>
+    <input type="text" id="nom" placeholder="entrer votre nome" required>
+    <br><br>
+    <label for="prenom">Prenom : </label>
+    <input type="text" id="prenom" placeholder="entrer votre prenom">
+    <br><br>
+    <label for="grp">Group :</label>
+    <input type="text" id="grp">
+    <br><br>
+    <label for="sujet">Sujet</label>
+    <input type="text" id="sujet">
+    <br><br>
+
+<label for="description">Description : </label><br>
+    <textarea required name="lettre" id="description" placeholder="please enter a descroption for your prject:" ></textarea> 
+    <br><br>   
+<label for="debut">Date de debut : </label>
+    <input type="date" id="debut">
+    <br><br>
+    <label for="fin">Date de fin : </label>
+    <input type="date" id="fin">
+    <br><br>
+    
+    Encadrement : <input required list="encad" name="encad">
+    <datalist  id="encad">
+        <option value="Prof1">
+        <option value="Prof2">
+        <option value="Prof3">
+        <option value="Prof4">
+        <option value="Prof5">
+    
+    </datalist>
+    <br><br>
+    <input type="submit" value="Envoyer">
+    <input type="reset" value="Annuler">
+
+</form>
+
+
+
+
         
+
     </fieldset> 
 </body>
 </html>

@@ -1,0 +1,54 @@
+h1{
+    border-radius:93px 63px  ;
+   
+    width: fit-content;
+    height: fit-content;
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    color:red;
+    transition:text-decoration 3s text-align 3s width 3s height 3s background-color 3s border 2s;
+    text-shadow: 6px 8px 2px green,-6px -8px 2px blue ;
+}
+h1:hover{
+    text-decoration: black wavy ;
+    border:9px orange double;
+    width: 300px;height: 80px;
+    font-family: georgia;text-align: center;
+    background-color: chartreuse;
+}
+p{
+    text-indent: 5px;
+    word-spacing: 10px;
+    line-height: 18px;
+    font-family:helvetica;
+    transition: color 3s font 3s;
+}
+p:hover{
+    font:italic normal lighter medium verdana ;
+    color: blue;
+    
+}
+a:link{
+    text-decoration-style: wavy;
+    text-decoration-line: underline underline;
+    color: red;
+}
+a:visited{
+    text-decoration-line: line-through;
+    color: gold;
+}
+a:hover{
+    background-color: aqua;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma,
+     Geneva, Verdana, sans-serif;
+}
+a:active{
+    color: black;
+}
+#id{
+    background-color:red;
+    width:190px;
+    height:120px;
+}
